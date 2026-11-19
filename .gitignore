@@ -1,0 +1,21 @@
+node_modules/
+out/
+dist/
+release/
+*.log
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+# local dev profile and screenshots written by the dev/demo flags
+.dev-profile/
+.shots/
+
+# transport probe: generated bundle, throwaway certificate and profile (see README "Security")
+scripts/transport-probe/transport.cjs
+scripts/transport-probe/*.pem
+scripts/transport-probe/userdata/
+
+# local design archives (not published)
+design/
